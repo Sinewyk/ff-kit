@@ -1,0 +1,31 @@
+{
+  "name": "ff-kit",
+  "version": "0.0.1",
+  "description": "ff-kit ======",
+  "main": "index.html",
+  "window": {
+    "toolbar": true,
+    "width": 800,
+    "height": 600
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sinewyk/ff-kit.git"
+  },
+  "author": "Sinewyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sinewyk/ff-kit/issues"
+  },
+  "homepage": "https://github.com/Sinewyk/ff-kit",
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  },
+  "dependencies": {
+    "node-jsx": "^0.11.0",
+    "react": "^0.11.2"
+  }
+}
