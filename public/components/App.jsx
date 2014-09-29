@@ -1,13 +1,11 @@
-/**
- * @jsx React.DOM
- */
-
 var React = require('react');
 
-module.exports = React.createClass({
+var App = React.createClass({
     render: function() {
         return (
             <div>Hello World !</div>
         );
     }
 });
+
+module.exports = App;

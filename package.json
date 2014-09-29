@@ -1,14 +1,14 @@
 {
   "name": "ff-kit",
   "version": "0.0.1",
-  "description": "ff-kit ======",
+  "description": "",
   "main": "index.html",
   "window": {
-    "toolbar": true,
     "width": 800,
     "height": 600
   },
   "scripts": {
+    "postinstall": "browserify --no-detect-globals --bare -t reactify public/main.js > bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,10 +22,21 @@
   },
   "homepage": "https://github.com/Sinewyk/ff-kit",
   "devDependencies": {
-    "gulp": "^3.8.8"
+    "browserify": "^5.12.1",
+    "gulp": "^3.8.8",
+    "reactify": "^0.14.0"
   },
   "dependencies": {
-    "node-jsx": "^0.11.0",
     "react": "^0.11.2"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
   }
 }
