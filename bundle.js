@@ -18494,18 +18494,27 @@ module.exports = App;
 
 },{"./components/App.jsx":146,"react":144}],146:[function(require,module,exports){
 /** @jsx React.DOM */var React = require('react');
+var fs = require('fs');
 
 var App = React.createClass({displayName: 'App',
+    files: function() {
+        return fs.readdirSync(process.cwd()).map(function(name, index) {
+            return React.DOM.div({key: index}, name)
+        });
+    },
     render: function() {
         return (
-            React.DOM.div(null, "Hello World !")
+            React.DOM.div(null, 
+                React.DOM.div(null, "Hello World !"), 
+                this.files()
+            )
         );
     }
 });
 
 module.exports = App;
 
-},{"react":144}],147:[function(require,module,exports){
+},{"fs":undefined,"react":144}],147:[function(require,module,exports){
 //make react work in node-webkit
 //Not necessary because browserify ftw ...
 //global.document = window.document;
