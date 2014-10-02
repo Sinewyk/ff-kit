@@ -8,7 +8,6 @@
     "height": 600
   },
   "scripts": {
-    "postinstall": "browserify --no-detect-globals --bare -t reactify public/main.js > bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
