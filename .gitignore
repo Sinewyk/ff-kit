@@ -21,6 +21,7 @@ build/Release
 
 # Compiled browserify build
 bundle.js
+bundle.css
 
 # Dependency directory
 # Commenting this out is preferred by some people, see

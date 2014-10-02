@@ -22,9 +22,18 @@
   },
   "homepage": "https://github.com/Sinewyk/ff-kit",
   "devDependencies": {
+    "bluebird": "^2.3.4",
     "browserify": "^5.12.1",
+    "envify": "^3.0.0",
     "gulp": "^3.8.8",
-    "reactify": "^0.14.0"
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.0.0",
+    "gulp-util": "^3.0.1",
+    "lodash": "^2.4.1",
+    "reactify": "^0.14.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^1.0.6"
   },
   "dependencies": {
     "react": "^0.11.2"

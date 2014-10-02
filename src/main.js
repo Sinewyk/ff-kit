@@ -6,3 +6,5 @@
 var App = require('./app');
 
 new App();
+
+console.log('App launched! ');
