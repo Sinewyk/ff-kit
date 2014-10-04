@@ -1,11 +1,9 @@
 var React = require('react');
-var AppComponent = require('./components/App.jsx');
+var Routes = require('./components/Routes.jsx');
 var mountNode = window.document.body;
 
 function App() {
-    React.renderComponent(AppComponent(), mountNode, function() {
-        console.log('React rendered !');
-    });
+    React.renderComponent(Routes, mountNode);
 }
 
 module.exports = App;
