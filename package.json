@@ -1,52 +1,53 @@
 {
-    "name": "ff-kit",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.html",
-    "window": {
-        "width": 800,
-        "height": 600,
-        "show": false
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Sinewyk/ff-kit.git"
-    },
-    "author": "Sinewyk",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Sinewyk/ff-kit/issues"
-    },
-    "homepage": "https://github.com/Sinewyk/ff-kit",
-    "devDependencies": {
-        "bluebird": "^2.3.4",
-        "browserify": "^5.12.1",
-        "envify": "^3.0.0",
-        "gulp": "^3.8.8",
-        "gulp-plumber": "^0.6.6",
-        "gulp-rename": "^1.2.0",
-        "gulp-sass": "^1.0.0",
-        "gulp-util": "^3.0.1",
-        "lodash": "^2.4.1",
-        "reactify": "^0.14.0",
-        "vinyl-source-stream": "^1.0.0",
-        "watchify": "^1.0.6"
-    },
-    "dependencies": {
-        "react": "^0.11.2",
-        "react-router": "^0.7.0"
-    },
-    "browserify": {
-        "transform": [
-            [
-                "reactify",
-                {
-                    "es6": true
-                }
-            ]
-        ]
-    }
+  "name": "ff-kit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "window": {
+    "width": 800,
+    "height": 600,
+    "show": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sinewyk/ff-kit.git"
+  },
+  "author": "Sinewyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sinewyk/ff-kit/issues"
+  },
+  "homepage": "https://github.com/Sinewyk/ff-kit",
+  "devDependencies": {
+    "bluebird": "^2.3.4",
+    "browserify": "^5.12.1",
+    "envify": "^3.0.0",
+    "gulp": "^3.8.8",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.0.0",
+    "gulp-util": "^3.0.1",
+    "lodash": "^2.4.1",
+    "reactify": "^0.14.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^1.0.6"
+  },
+  "dependencies": {
+    "node-gettext": "^0.2.14",
+    "react": "^0.11.2",
+    "react-router": "^0.7.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  }
 }

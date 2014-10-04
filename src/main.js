@@ -1,8 +1,4 @@
-//make react work in node-webkit
-//Not necessary because browserify ftw ...
-//global.document = window.document;
-//global.navigator = window.navigator;
-
+require('./i18n').changeLanguage('fr');
 var App = require('./app');
 
 new App();
