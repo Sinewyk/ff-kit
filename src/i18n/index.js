@@ -20,7 +20,4 @@ function changeLanguage(_language) {
     gt.textdomain(_language);
 }
 
-module.exports = {
-    t: t,
-    changeLanguage: changeLanguage
-};
+module.exports = gt;
