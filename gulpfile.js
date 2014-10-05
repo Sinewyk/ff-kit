@@ -53,7 +53,7 @@ gulp.task('browserify', function() {
 });
 
 gulp.task('sass', function() {
-    return gulp.src(paths.styles + '/main.scss')
+    return gulp.src(paths.styles + '/index.scss')
         .pipe(plumber())
         .pipe(sass())
         .pipe(rename('bundle.css'))

@@ -4,15 +4,15 @@ var Route = require('react-router').Route;
 var NotFoundRoute = require('react-router').NotFoundRoute;
 
 var Application = require('./Application.jsx');
-var FanfictionInput = require('./FanfictionInput.jsx');
+var Fanfiction = require('./Fanfiction.jsx');
 var Config = require('./Config.jsx');
 
 var routes = (
 <Routes>
     <Route path="/" handler={Application}>
-        <DefaultRoute name="application" handler={FanfictionInput}/>
+        <DefaultRoute name="application" handler={Fanfiction}/>
         <Route name="config" handler={Config}/>
-        <NotFoundRoute handler={FanfictionInput}/>
+        <NotFoundRoute handler={Fanfiction}/>
     </Route>
 </Routes>
 );
