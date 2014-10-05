@@ -13,7 +13,7 @@ var Application = React.createClass({
         );
     },
     componentDidMount: function() {
-        gui.Window.get().show();
+        //gui.Window.get().show();
     }
 });
 

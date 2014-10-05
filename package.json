@@ -10,7 +10,7 @@
     "height": 500,
     "_toolbar": false,
     "_frame": false,
-    "show": false
+    "_show": false
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
