@@ -1,26 +1,31 @@
 var React = require('react');
 var t = require('../i18n');
 
+//@todo fix thise useless call because Poedit with the js parser can't see the string ...
+t.gettext('Insert link here ...');
+
 var FanfictionInput = React.createClass({
     getInitialState: function() {
         return {
-            input: t.gettext('Copy/paste fanfiction link')
+            input: null
         };
     },
     render: function() {
         return (
-        <div>
-            <input onChange={this.handleInput} value={this.state.input} type="text"/>
-            <button onClick={this.doStuff}>{t.gettext('Download')}</button>
-            <div>{t.gettext('Preview')} : {this.state.input}</div>
+        <div className="main">
+            <div>
+                <label htmlFor="link">{t.gettext('URL')} : </label>
+                <input placeholder={t.gettext('Insert link here ...')} id="link" onChange={this.handleInput} value={this.state.input} type="text"/>
+                <button onClick={this.checkLink}>{t.gettext('Check')}</button>
+            </div>
         </div>
         );
     },
     handleInput: function(e) {
         this.setState({input: e.target.value.trim()});
     },
-    doStuff: function(e) {
-        console.log('stuff');
+    checkLink: function(e) {
+        console.log('checking the link ...');
     }
 });
 

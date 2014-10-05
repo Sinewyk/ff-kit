@@ -4,7 +4,7 @@ var t = require('../i18n');
 var FanfictionInput = React.createClass({
     render: function() {
         return (
-        <div>{t.gettext('Configuration')}</div>
+        <div className="main">{t.gettext('Configuration')}</div>
         );
     }
 });

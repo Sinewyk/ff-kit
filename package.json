@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.html",
   "window": {
-    "width": 800,
-    "height": 600,
+    "title": "Fanfiction Kit",
+    "position": "center",
+    "width": 400,
+    "height": 500,
+    "_toolbar": false,
+    "_frame": false,
     "show": false
   },
   "scripts": {

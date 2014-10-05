@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ff-kit\n"
-"POT-Creation-Date: 2014-10-04 22:46+0100\n"
-"PO-Revision-Date: 2014-10-04 22:46+0100\n"
+"POT-Creation-Date: 2014-10-05 03:34+0100\n"
+"PO-Revision-Date: 2014-10-05 03:34+0100\n"
 "Last-Translator: Sinewyk <Sinewyk@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -25,10 +25,17 @@ msgstr "Fanfiction"
 msgid "Configuration"
 msgstr "Configuration"
 
-#: ../src/components/FanfictionInput.jsx:7
-msgid "Copy/paste fanfiction link"
-msgstr "Copier/coller le lien de la fanfiction"
+#: ../src/components/FanfictionInput.jsx:5
+msgid "Insert link here ..."
+msgstr "Insérer un lien ..."
 
-#: ../src/components/FanfictionInput.jsx:15
-msgid "Preview"
-msgstr "Aperçu"
+#: ../src/components/FanfictionInput.jsx:17
+msgid "URL"
+msgstr "URL"
+
+#: ../src/components/FanfictionInput.jsx:19
+msgid "Check"
+msgstr "Verifier"
+
+#~ msgid "Copy/paste fanfiction link"
+#~ msgstr "Insérer votre lien"

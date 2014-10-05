@@ -9,8 +9,8 @@ var Config = require('./Config.jsx');
 
 var routes = (
 <Routes>
-    <Route name="application" path="/" handler={Application}>
-        <DefaultRoute handler={FanfictionInput}/>
+    <Route path="/" handler={Application}>
+        <DefaultRoute name="application" handler={FanfictionInput}/>
         <Route name="config" handler={Config}/>
         <NotFoundRoute handler={FanfictionInput}/>
     </Route>
