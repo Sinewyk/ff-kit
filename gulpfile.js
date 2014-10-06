@@ -10,7 +10,7 @@ var gulp = require('gulp'),
     source = require('vinyl-source-stream'),
     envify = require('envify/custom');
 
-var envString = process.env.NODE_ENV;
+var envString = process.env.NODE_ENV || 'development';
 
 var paths = {
     root: __dirname,
