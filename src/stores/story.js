@@ -3,7 +3,6 @@ var Actions = require('../actions');
 var Promise = require('bluebird');
 var request = Promise.promisifyAll(require('request'));
 var t = require('../i18n');
-var OperationalError = Promise.OperationalError;
 var url = require('url');
 var _ = require('lodash');
 

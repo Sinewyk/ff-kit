@@ -5,7 +5,6 @@ var checkStory = require('../actions').checkStory;
 var Story = require('./Story.jsx');
 
 //@todo fix thise useless call because Poedit with the js parser can't see the string ...
-t.gettext('Insert link here ...');
 
 var Fanfiction = React.createClass({
     componentDidMount: function() {
