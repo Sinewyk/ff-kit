@@ -1,5 +1,4 @@
-//node-gettext is requiring a .node file ...
-var Gettext = window.require("node-gettext");
+var Gettext = require("node-gettext");
 var gt = new Gettext();
 var fs = require('fs');
 var path = require('path');
