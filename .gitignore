@@ -23,10 +23,14 @@ build/Release
 bundle.js
 bundle.css
 
+# Temporary folder for downloading then converting
+temp
+
 # Dependency directory
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
-node_modules
+node_modules/*
+!node_modules/ebook-converter
 
 # Users Environment Variables
 .lock-wscript
