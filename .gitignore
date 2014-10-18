@@ -30,8 +30,13 @@ temp
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules/*
-!node_modules/ebook-converter
-!node_modules/config
+!node_modules/_ebook-converter
+!node_modules/_config
+!node_modules/_i18n
+!node_modules/_components
+!node_modules/_actions
+!node_modules/_stores
+!node_modules/_services
 
 # Users Environment Variables
 .lock-wscript

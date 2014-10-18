@@ -48,15 +48,5 @@
     "react-router": "^0.9.4",
     "reflux": "^0.1.13",
     "request": "^2.45.0"
-  },
-  "browserify": {
-    "transform": [
-      [
-        "reactify",
-        {
-          "es6": true
-        }
-      ]
-    ]
   }
 }

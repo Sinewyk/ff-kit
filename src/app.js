@@ -1,5 +1,5 @@
 var React = require('react');
-var Routes = require('./components/Routes.jsx');
+var Routes = require('_components/Routes.jsx');
 var mountNode = window.document.body;
 
 function App() {

@@ -1,4 +1,4 @@
-require('./i18n').textdomain('fr');
+require('_i18n').textdomain('fr');
 
 if (process.env.NODE_ENV === 'development') {
     require('bluebird').longStackTraces();
