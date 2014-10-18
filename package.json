@@ -26,12 +26,12 @@
   "homepage": "https://github.com/Sinewyk/ff-kit",
   "devDependencies": {
     "bluebird": "^2.3.4",
-    "browserify": "^5.12.1",
+    "browserify": "^6.1.0",
     "envify": "^3.0.0",
     "gulp": "^3.8.8",
     "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.0",
-    "gulp-sass": "^1.0.0",
+    "gulp-sass": "^1.1.0",
     "gulp-util": "^3.0.1",
     "istanbul": "^0.3.2",
     "lodash": "^2.4.1",
@@ -39,15 +39,15 @@
     "reactify": "^0.14.0",
     "should": "^4.0.4",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^1.0.6"
+    "watchify": "^2.0.0"
   },
   "dependencies": {
-    "bluebird": "^2.3.4",
-    "node-gettext": "git+https://git@github.com/Sinewyk/node-gettext#2f35a2683ec77f9e6c34ee95de920f221863771d",
+    "bluebird": "^2.3.6",
+    "node-gettext": "git+https://git@github.com/Sinewyk/node-gettext#no_iconv",
     "react": "^0.11.2",
-    "react-router": "^0.7.0",
+    "react-router": "^0.9.4",
     "reflux": "^0.1.13",
-    "request": "^2.44.0"
+    "request": "^2.45.0"
   },
   "browserify": {
     "transform": [
