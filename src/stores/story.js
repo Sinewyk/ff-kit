@@ -6,9 +6,7 @@ var t = require('../i18n');
 var url = require('url');
 var _ = require('lodash');
 
-var acceptedDomains = [
-    'www.fanfiction.net'
-];
+var acceptedDomains = require('config').acceptedDomains;
 
 var storyStore = Reflux.createStore({
     init: function() {
