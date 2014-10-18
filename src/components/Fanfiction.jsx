@@ -4,8 +4,6 @@ var storyStore = require('../stores/story');
 var checkStory = require('../actions').checkStory;
 var Story = require('./Story.jsx');
 
-//@todo fix thise useless call because Poedit with the js parser can't see the string ...
-
 var Fanfiction = React.createClass({
     componentDidMount: function() {
         this.unsubscribe = storyStore.listen(this._onChange);
