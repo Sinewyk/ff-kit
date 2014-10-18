@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ff-kit\n"
-"POT-Creation-Date: 2014-10-13 20:35+0100\n"
-"PO-Revision-Date: 2014-10-13 21:44+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2014-10-18 23:33+0100\n"
+"PO-Revision-Date: 2014-10-18 23:34+0100\n"
+"Last-Translator: Sinewyk <sinewyk@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ../src\n"
 
-#: ../src/stores/story.js:37 ../src/stores/story.js:42
+#: ../src/stores/story.js:34 ../src/stores/story.js:39
 msgid "Please fix your URL"
 msgstr "Corrigez votre URL"
 
-#: ../src/stores/story.js:51
+#: ../src/stores/story.js:48
 msgid "This domain is not supported ..."
 msgstr ""
 
@@ -29,15 +29,15 @@ msgstr ""
 msgid "Configuration"
 msgstr "Configuration"
 
-#: ../src/components/Fanfiction.jsx:29
+#: ../src/components/Fanfiction.jsx:27
 msgid "URL"
 msgstr "URL"
 
-#: ../src/components/Fanfiction.jsx:30
+#: ../src/components/Fanfiction.jsx:28
 msgid "Insert link here ..."
 msgstr "Insérer un lien ..."
 
-#: ../src/components/Fanfiction.jsx:31
+#: ../src/components/Fanfiction.jsx:29
 msgid "Check"
 msgstr "Verifier"
 
