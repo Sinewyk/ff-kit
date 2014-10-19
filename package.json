@@ -34,7 +34,6 @@
     "gulp-sass": "^1.1.0",
     "gulp-util": "^3.0.1",
     "istanbul": "^0.3.2",
-    "lodash": "^2.4.1",
     "mocha": "^1.21.5",
     "reactify": "^0.14.0",
     "should": "^4.0.4",
@@ -47,6 +46,7 @@
     "react": "^0.11.2",
     "react-router": "^0.9.4",
     "reflux": "^0.1.13",
-    "request": "^2.45.0"
+    "request": "^2.45.0",
+    "underscore": "^1.7.0"
   }
 }

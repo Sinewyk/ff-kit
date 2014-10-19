@@ -6,9 +6,10 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     rename = require('gulp-rename'),
     plumber = require('gulp-plumber'),
-    _ = require('lodash'),
+    _ = require('underscore'),
     source = require('vinyl-source-stream'),
-    envify = require('envify/custom');
+    envify = require('envify/custom'),
+    reactify = require('reactify');
 
 var envString = process.env.NODE_ENV || 'development';
 
@@ -22,9 +23,7 @@ var w;
 
 function rebundle() {
     return new Promise(function(resolve, reject) {
-        w.transform(envify({
-            NODE_ENV: envString
-        }))
+        w.transform(envify({NODE_ENV: envString}))
         .bundle()
         .on('error', function(event) {
             gutil.log('Browserify bundle error !');
@@ -46,7 +45,18 @@ gulp.task('browserify', function() {
         insertGlobals: false,
         commondir: false,
         builtins: false,
-        debug: true
+        debug: true,
+        //global transform to transform the _components module
+        //because otherwise with a package.json I have to put it in the top level one
+        //or a npm prune would delete it ...
+        transform: [
+            [
+                "reactify", {
+                    "es6": true,
+                    "global": true
+                }
+            ]
+        ]
     });
     w = watchify(browserify(paths.src + '/main.js', opts));
     return rebundle();
