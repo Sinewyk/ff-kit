@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ff-kit\n"
-"POT-Creation-Date: 2014-10-19 18:02+0100\n"
-"PO-Revision-Date: 2014-10-19 18:04+0100\n"
+"POT-Creation-Date: 2014-10-19 20:18+0100\n"
+"PO-Revision-Date: 2014-10-19 20:18+0100\n"
 "Last-Translator: Sinewyk <sinewyk@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -24,11 +24,11 @@ msgstr ""
 "X-Poedit-SearchPath-7: ../node_modules/_stores\n"
 "X-Poedit-SearchPath-8: ../node_modules/_services\n"
 
-#: ../node_modules/_services/adapters/www.fanfiction.net.adapter.js:40
+#: ../node_modules/_services/adapters/www.fanfiction.net.adapter.js:48
 msgid "Complete"
 msgstr "Terminée"
 
-#: ../node_modules/_services/adapters/www.fanfiction.net.adapter.js:40
+#: ../node_modules/_services/adapters/www.fanfiction.net.adapter.js:48
 msgid "In progress"
 msgstr "En cours"
 
@@ -36,7 +36,7 @@ msgstr "En cours"
 msgid "Unsupported domain"
 msgstr "Domaine non supporté"
 
-#: ../node_modules/_services/fanfiction.js:24
+#: ../node_modules/_services/fanfiction.js:20
 msgid "Failed checking the story"
 msgstr "Erreur lors de la vérification"
 
@@ -45,18 +45,50 @@ msgstr "Erreur lors de la vérification"
 msgid "Configuration"
 msgstr "Configuration"
 
-#: ../node_modules/_components/Fanfiction.jsx:29
+#: ../node_modules/_components/Fanfiction.jsx:21
 msgid "URL"
 msgstr "URL"
 
-#: ../node_modules/_components/Fanfiction.jsx:30
+#: ../node_modules/_components/Fanfiction.jsx:22
 msgid "Insert link here ..."
 msgstr "Insérer un lien ..."
 
-#: ../node_modules/_components/Fanfiction.jsx:31
+#: ../node_modules/_components/Fanfiction.jsx:23
 msgid "Check"
 msgstr "Verifier"
 
 #: ../node_modules/_components/Header.jsx:10
 msgid "Fanfiction"
 msgstr "Fanfiction"
+
+#: ../node_modules/_components/Story.jsx:24
+msgid "Loading ..."
+msgstr "Chargement ..."
+
+#: ../node_modules/_components/Story.jsx:38
+msgid "Author : "
+msgstr "Auteur : "
+
+#: ../node_modules/_components/Story.jsx:40
+msgid "Published : "
+msgstr "Publié le : "
+
+#: ../node_modules/_components/Story.jsx:42
+msgid "Status : "
+msgstr "Statut : "
+
+#: ../node_modules/_components/Story.jsx:44
+msgid "Genre : "
+msgstr "Genre : "
+
+msgid "Story : "
+msgstr "Récit : "
+
+msgid "Last updated : "
+msgstr "Dernière mise à jour : "
+
+msgid "Summary : "
+msgstr "Résumé : "
+
+msgid "Category : "
+msgstr "Catégorie : "
