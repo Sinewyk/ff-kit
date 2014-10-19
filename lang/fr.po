@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ff-kit\n"
-"POT-Creation-Date: 2014-10-19 20:18+0100\n"
-"PO-Revision-Date: 2014-10-19 20:18+0100\n"
+"POT-Creation-Date: 2014-10-19 22:40+0100\n"
+"PO-Revision-Date: 2014-10-19 22:40+0100\n"
 "Last-Translator: Sinewyk <sinewyk@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -10,85 +10,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-KeywordsList: gettext\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ../src\n"
-"X-Poedit-SearchPath-2: ../node_modules/_ebook-converter\n"
-"X-Poedit-SearchPath-3: ../node_modules/_config\n"
-"X-Poedit-SearchPath-4: ../node_modules/_i18n\n"
-"X-Poedit-SearchPath-5: ../node_modules/_components\n"
-"X-Poedit-SearchPath-6: ../node_modules/_actions\n"
-"X-Poedit-SearchPath-7: ../node_modules/_stores\n"
-"X-Poedit-SearchPath-8: ../node_modules/_services\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../node_modules\n"
 
-#: ../node_modules/_services/adapters/www.fanfiction.net.adapter.js:48
-msgid "Complete"
-msgstr "Terminée"
-
-#: ../node_modules/_services/adapters/www.fanfiction.net.adapter.js:48
-msgid "In progress"
-msgstr "En cours"
-
-#: ../node_modules/_services/fanfiction.js:15
-msgid "Unsupported domain"
-msgstr "Domaine non supporté"
-
-#: ../node_modules/_services/fanfiction.js:20
-msgid "Failed checking the story"
-msgstr "Erreur lors de la vérification"
-
-#: ../node_modules/_components/Config.jsx:7
-#: ../node_modules/_components/Header.jsx:11
+#: ../bundle.js:55 ../bundle.js:118
 msgid "Configuration"
 msgstr "Configuration"
 
-#: ../node_modules/_components/Fanfiction.jsx:21
+#: ../bundle.js:83
 msgid "URL"
 msgstr "URL"
 
-#: ../node_modules/_components/Fanfiction.jsx:22
+#: ../bundle.js:84
 msgid "Insert link here ..."
 msgstr "Insérer un lien ..."
 
-#: ../node_modules/_components/Fanfiction.jsx:23
+#: ../bundle.js:85
 msgid "Check"
 msgstr "Verifier"
 
-#: ../node_modules/_components/Header.jsx:10
+#: ../bundle.js:117
 msgid "Fanfiction"
 msgstr "Fanfiction"
 
-#: ../node_modules/_components/Story.jsx:24
+#: ../bundle.js:173
 msgid "Loading ..."
 msgstr "Chargement ..."
 
-#: ../node_modules/_components/Story.jsx:38
-msgid "Author : "
-msgstr "Auteur : "
-
-#: ../node_modules/_components/Story.jsx:40
-msgid "Published : "
-msgstr "Publié le : "
-
-#: ../node_modules/_components/Story.jsx:42
-msgid "Status : "
-msgstr "Statut : "
-
-#: ../node_modules/_components/Story.jsx:44
-msgid "Genre : "
-msgstr "Genre : "
-
+#: ../bundle.js:186
 msgid "Story : "
 msgstr "Récit : "
 
+#: ../bundle.js:187
+msgid "Author : "
+msgstr "Auteur : "
+
+#: ../bundle.js:188
+#, javascript-format
+msgid "Chapter : %d"
+msgid_plural "Chapters : %d"
+msgstr[0] "Chapitre : %d"
+msgstr[1] "Chapitres : %d"
+
+#: ../bundle.js:189
+msgid "Published : "
+msgstr "Publié le : "
+
+#: ../bundle.js:190
 msgid "Last updated : "
 msgstr "Dernière mise à jour : "
 
+#: ../bundle.js:191
+msgid "Status : "
+msgstr "Statut : "
+
+#: ../bundle.js:192
 msgid "Summary : "
 msgstr "Résumé : "
 
+#: ../bundle.js:193
+msgid "Genre : "
+msgstr "Genre : "
+
+#: ../bundle.js:194
 msgid "Category : "
 msgstr "Catégorie : "
+
+#: ../bundle.js:296
+msgid "Complete"
+msgstr "Terminée"
+
+#: ../bundle.js:296
+msgid "In progress"
+msgstr "En cours"
+
+#: ../bundle.js:338
+msgid "Unsupported domain"
+msgstr "Domaine non supporté"
+
+#: ../bundle.js:343
+msgid "Failed checking the story"
+msgstr "Erreur lors de la vérification"
