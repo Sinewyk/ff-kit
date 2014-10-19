@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "bluebird": "^2.3.6",
+    "jquery": "^2.1.1",
     "node-gettext": "git+https://git@github.com/Sinewyk/node-gettext#no_iconv",
     "react": "^0.11.2",
     "react-router": "^0.9.4",
