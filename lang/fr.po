@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ff-kit\n"
-"POT-Creation-Date: 2014-10-19 22:40+0100\n"
-"PO-Revision-Date: 2014-10-19 22:40+0100\n"
+"POT-Creation-Date: 2014-10-22 00:06+0100\n"
+"PO-Revision-Date: 2014-10-22 00:06+0100\n"
 "Last-Translator: Sinewyk <sinewyk@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12,12 +12,12 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 "X-Poedit-KeywordsList: gettext\n"
 "X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 "X-Poedit-SearchPathExcluded-0: ../node_modules\n"
 
-#: ../bundle.js:55 ../bundle.js:118
+#: ../bundle.js:55 ../bundle.js:120
 msgid "Configuration"
 msgstr "Configuration"
 
@@ -33,65 +33,68 @@ msgstr "Insérer un lien ..."
 msgid "Check"
 msgstr "Verifier"
 
-#: ../bundle.js:117
-msgid "Fanfiction"
-msgstr "Fanfiction"
+#: ../bundle.js:118
+msgid "Back"
+msgstr "Retour"
 
-#: ../bundle.js:173
+#: ../bundle.js:179
 msgid "Loading ..."
 msgstr "Chargement ..."
 
-#: ../bundle.js:186
+#: ../bundle.js:192
 msgid "Story : "
 msgstr "Récit : "
 
-#: ../bundle.js:187
+#: ../bundle.js:193
 msgid "Author : "
 msgstr "Auteur : "
 
-#: ../bundle.js:188
+#: ../bundle.js:194
 #, javascript-format
 msgid "Chapter : %d"
 msgid_plural "Chapters : %d"
 msgstr[0] "Chapitre : %d"
 msgstr[1] "Chapitres : %d"
 
-#: ../bundle.js:189
+#: ../bundle.js:195
 msgid "Published : "
 msgstr "Publié le : "
 
-#: ../bundle.js:190
+#: ../bundle.js:196
 msgid "Last updated : "
 msgstr "Dernière mise à jour : "
 
-#: ../bundle.js:191
+#: ../bundle.js:197
 msgid "Status : "
 msgstr "Statut : "
 
-#: ../bundle.js:192
+#: ../bundle.js:198
 msgid "Summary : "
 msgstr "Résumé : "
 
-#: ../bundle.js:193
+#: ../bundle.js:199
 msgid "Genre : "
 msgstr "Genre : "
 
-#: ../bundle.js:194
+#: ../bundle.js:200
 msgid "Category : "
 msgstr "Catégorie : "
 
-#: ../bundle.js:296
+#: ../bundle.js:305
 msgid "Complete"
 msgstr "Terminée"
 
-#: ../bundle.js:296
+#: ../bundle.js:305
 msgid "In progress"
 msgstr "En cours"
 
-#: ../bundle.js:338
+#: ../bundle.js:347
 msgid "Unsupported domain"
 msgstr "Domaine non supporté"
 
-#: ../bundle.js:343
+#: ../bundle.js:352
 msgid "Failed checking the story"
 msgstr "Erreur lors de la vérification"
+
+#~ msgid "Fanfiction"
+#~ msgstr "Fanfiction"
