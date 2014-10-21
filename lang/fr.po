@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ff-kit\n"
-"POT-Creation-Date: 2014-10-22 00:06+0100\n"
-"PO-Revision-Date: 2014-10-22 00:06+0100\n"
+"POT-Creation-Date: 2014-10-22 00:24+0100\n"
+"PO-Revision-Date: 2014-10-22 00:24+0100\n"
 "Last-Translator: Sinewyk <sinewyk@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -30,8 +30,8 @@ msgid "Insert link here ..."
 msgstr "Insérer un lien ..."
 
 #: ../bundle.js:85
-msgid "Check"
-msgstr "Verifier"
+msgid "Download"
+msgstr "Télécharger"
 
 #: ../bundle.js:118
 msgid "Back"
@@ -95,6 +95,9 @@ msgstr "Domaine non supporté"
 #: ../bundle.js:352
 msgid "Failed checking the story"
 msgstr "Erreur lors de la vérification"
+
+#~ msgid "Check"
+#~ msgstr "Verifier"
 
 #~ msgid "Fanfiction"
 #~ msgstr "Fanfiction"
