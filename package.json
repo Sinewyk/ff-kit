@@ -42,10 +42,11 @@
   },
   "dependencies": {
     "bluebird": "^2.3.6",
+    "jed": "git+https://git@github.com/Sinewyk/Jed#deps",
+    "jed-gettext-parser": "^0.1.0",
     "jquery": "^2.1.1",
     "moment": "^2.8.3",
     "node-gettext": "git+https://git@github.com/Sinewyk/node-gettext#no_iconv",
-    "jed": "git+https://git@github.com/Sinewyk/Jed#deps",
     "react": "^0.11.2",
     "react-router": "^0.9.4",
     "reflux": "^0.1.13",
