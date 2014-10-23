@@ -1,6 +1,6 @@
 //languageConf @todo: read conf
 var locale = 'fr';
-require('_i18n').moment.locale(locale);
+require('_i18n').changeLanguage(locale);
 
 if (process.env.NODE_ENV === 'development') {
     require('bluebird').longStackTraces();
