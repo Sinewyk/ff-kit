@@ -13,6 +13,8 @@ var gulp = require('gulp'),
 
 var envString = process.env.NODE_ENV || 'development';
 
+var debug = false;
+
 var paths = {
     root: __dirname,
     styles: __dirname + '/styles',
@@ -21,6 +23,16 @@ var paths = {
 
 var w;
 
+//check dependencies if included multiple times ...
+//first time i'm fooling around with node_modules/_*
+//browserify src/main.js --bare --no-detect-globals --global-transform=reactify --list
+//
+//then just escape \\
+//wrap in '"'
+//put some : true, except last line
+//then Object.keys(it).length
+//should be equal to the number of line outputed by the --list
+
 function rebundle() {
     return new Promise(function(resolve, reject) {
         w.transform(envify({NODE_ENV: envString}))
@@ -28,6 +40,10 @@ function rebundle() {
         .on('error', function(event) {
             gutil.log('Browserify bundle error !');
             reject(event);
+        })
+        .on('file', function(file, id, parent) {
+            if (!debug) return;
+            console.log(file);
         })
         .pipe(source('main.js'))
         .pipe(rename('bundle.js'))

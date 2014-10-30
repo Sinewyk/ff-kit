@@ -3,7 +3,7 @@ var Routes = require('_components/Routes.jsx');
 var mountNode = window.document.body;
 
 function App() {
-    React.renderComponent(Routes, mountNode);
+    React.render(Routes, mountNode);
 }
 
 module.exports = App;
