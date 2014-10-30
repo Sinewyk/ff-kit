@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ff-kit\n"
-"POT-Creation-Date: 2014-10-22 00:24+0100\n"
-"PO-Revision-Date: 2014-10-22 00:24+0100\n"
+"POT-Creation-Date: 2014-10-30 23:42+0100\n"
+"PO-Revision-Date: 2014-10-30 23:43+0100\n"
 "Last-Translator: Sinewyk <sinewyk@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -17,84 +17,88 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 "X-Poedit-SearchPathExcluded-0: ../node_modules\n"
 
-#: ../bundle.js:55 ../bundle.js:120
+#: ../bundle.js:53 ../bundle.js:118
 msgid "Configuration"
 msgstr "Configuration"
 
-#: ../bundle.js:83
+#: ../bundle.js:81
 msgid "URL"
 msgstr "URL"
 
-#: ../bundle.js:84
+#: ../bundle.js:82
 msgid "Insert link here ..."
 msgstr "Insérer un lien ..."
 
-#: ../bundle.js:85
+#: ../bundle.js:83
 msgid "Download"
 msgstr "Télécharger"
 
-#: ../bundle.js:118
+#: ../bundle.js:116
 msgid "Back"
 msgstr "Retour"
 
-#: ../bundle.js:179
+#: ../bundle.js:178
 msgid "Loading ..."
 msgstr "Chargement ..."
 
-#: ../bundle.js:192
+#: ../bundle.js:191
 msgid "Story : "
 msgstr "Récit : "
 
-#: ../bundle.js:193
+#: ../bundle.js:192
 msgid "Author : "
 msgstr "Auteur : "
 
-#: ../bundle.js:194
+#: ../bundle.js:193
 #, javascript-format
 msgid "Chapter : %d"
 msgid_plural "Chapters : %d"
 msgstr[0] "Chapitre : %d"
 msgstr[1] "Chapitres : %d"
 
-#: ../bundle.js:195
+#: ../bundle.js:194
 msgid "Published : "
 msgstr "Publié le : "
 
-#: ../bundle.js:196
+#: ../bundle.js:195
 msgid "Last updated : "
 msgstr "Dernière mise à jour : "
 
-#: ../bundle.js:197
+#: ../bundle.js:196
 msgid "Status : "
 msgstr "Statut : "
 
-#: ../bundle.js:198
+#: ../bundle.js:197
 msgid "Summary : "
 msgstr "Résumé : "
 
-#: ../bundle.js:199
+#: ../bundle.js:198
 msgid "Genre : "
 msgstr "Genre : "
 
-#: ../bundle.js:200
+#: ../bundle.js:199
 msgid "Category : "
 msgstr "Catégorie : "
 
-#: ../bundle.js:305
+#: ../bundle.js:378
 msgid "Complete"
 msgstr "Terminée"
 
-#: ../bundle.js:305
+#: ../bundle.js:378
 msgid "In progress"
 msgstr "En cours"
 
-#: ../bundle.js:347
+#: ../bundle.js:466
 msgid "Unsupported domain"
 msgstr "Domaine non supporté"
 
-#: ../bundle.js:352
+#: ../bundle.js:471
 msgid "Failed checking the story"
 msgstr "Erreur lors de la vérification"
+
+#: ../bundle.js:538
+msgid "Successfully saved the story !"
+msgstr "Sauvegarde de l'histoire réussi !"
 
 #~ msgid "Check"
 #~ msgstr "Verifier"
