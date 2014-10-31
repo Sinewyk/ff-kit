@@ -42,12 +42,12 @@
   },
   "dependencies": {
     "bluebird": "^2.3.10",
-    "jed": "git+https://git@github.com/Sinewyk/Jed#deps",
-    "jed-gettext-parser": "^0.1.0",
+    "jed": "^1.1.0",
+    "jed-gettext-parser": "^1.0.0",
     "jquery": "^2.1.1",
     "moment": "^2.8.3",
     "react": "^0.12.0",
-    "react-router": "^0.10.0",
+    "react-router": "^0.10.2",
     "reflux": "^0.1.13",
     "request": "^2.47.0",
     "underscore": "^1.7.0"
