@@ -9,7 +9,8 @@ var gulp = require('gulp'),
     _ = require('underscore'),
     source = require('vinyl-source-stream'),
     envify = require('envify/custom'),
-    reactify = require('reactify');
+    reactify = require('reactify'),
+    regenerator = require('regenerator');
 
 var envString = process.env.NODE_ENV || 'development';
 
@@ -36,6 +37,8 @@ var w;
 function rebundle() {
     return new Promise(function(resolve, reject) {
         w.transform(envify({NODE_ENV: envString}))
+        //global to also transform js-csp
+        .transform(regenerator, {global: true})
         .bundle()
         .on('error', function(event) {
             gutil.log('Browserify bundle error !');

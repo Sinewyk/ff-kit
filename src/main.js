@@ -1,3 +1,5 @@
+var regeneratorRuntime = require('regenerator/runtime');
+
 //languageConf @todo: read conf
 var locale = 'fr';
 require('_i18n').changeLanguage(locale);
