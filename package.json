@@ -26,30 +26,30 @@
   "homepage": "https://github.com/Sinewyk/ff-kit",
   "devDependencies": {
     "bluebird": "^2.3.4",
-    "browserify": "^6.2.0",
-    "envify": "^3.0.0",
-    "gulp": "^3.8.9",
+    "browserify": "^7.0.0",
+    "envify": "^3.2.0",
+    "gulp": "^3.8.10",
     "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^1.1.0",
     "gulp-util": "^3.0.1",
-    "istanbul": "^0.3.2",
+    "istanbul": "^0.3.5",
     "mocha": "^2.0.1",
-    "reactify": "^0.15.2",
-    "should": "^4.1.0",
+    "reactify": "^0.17.1",
+    "should": "^4.3.1",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^2.1.0"
+    "watchify": "^2.1.1"
   },
   "dependencies": {
-    "bluebird": "^2.3.10",
+    "bluebird": "^2.3.11",
     "jed": "^1.1.0",
     "jed-gettext-parser": "^1.0.0",
     "jquery": "^2.1.1",
-    "moment": "^2.8.3",
-    "react": "^0.12.0",
-    "react-router": "^0.10.2",
-    "reflux": "^0.1.13",
-    "request": "^2.47.0",
+    "moment": "^2.8.4",
+    "react": "^0.12.1",
+    "react-router": "^0.11.4",
+    "reflux": "^0.2.1",
+    "request": "^2.50.0",
     "underscore": "^1.7.0"
   }
 }
